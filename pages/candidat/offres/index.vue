@@ -19,10 +19,10 @@
             <label class="block text-xs font-medium text-gray-700 mb-1.5">Saison</label>
             <select v-model="filtres.saison" class="input">
               <option value="">Toutes saisons</option>
-              <option>☀️ Été</option>
-              <option>❄️ Hiver</option>
-              <option>🌿 Toute l'année</option>
-              <option>🍂 Printemps/Automne</option>
+              <option value="Été">☀️ Été</option>
+              <option value="Hiver">❄️ Hiver</option>
+              <option value="Toute l'année">🌿 Toute l'année</option>
+              <option value="Printemps/Automne">🍂 Printemps/Automne</option>
             </select>
           </div>
 
